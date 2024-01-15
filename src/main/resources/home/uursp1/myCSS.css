@@ -1,0 +1,78 @@
+.button
+{
+-fx-background-color :#0D64B1 ;
+}
+.button:hover
+{
+-fx-background-color : #0A76D1 ;
+}
+.button:pressed
+{
+-fx-background-color : #5AB1FB;
+}
+
+#buttonJazyk{
+    -fx-background-color : #00a22b;
+}
+
+#buttonJazyk:hover{
+    -fx-background-color : #00dc30;
+}
+
+#buttonJazyk:pressed{
+    -fx-background-color : #50ff77;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-cell-size : 20;
+    -fx-background-color: #2D75E8;
+}
+.table-view .column-header .label{
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER;
+}
+.table-view .cell{
+    -fx-cell-size: 30;
+    -fx-text-fill: #000000;
+    -fx-alignment: CENTER-LEFT;
+}
+.table-view{
+    -fx-background-color: #69c2f8;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #69c2f8;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgba(255, 183, 0, 0.77);
+}
+ .table-row-cell:selected .text {
+        -fx-fill : #0001ad;
+ }
+ .tree-cell{
+     -fx-font-size: 16;
+     -fx-background-color: #AACED0;
+ }
+ .tree-cell:selected{
+     -fx-background-color: #da8080;
+ }
+
+ .text-area{
+     -fx-font-size: 16;
+ }
+
+ .text-area .content{
+     -fx-background-color: #E4E4D2;
+ }
+
+ #textAreaOAplikaci{
+     -fx-font-size: 20;
+     -fx-font-weight: bold;
+ }
+
+ #textAreaOAplikaci .content{
+     -fx-background-color: #00DCFF;
+ }
